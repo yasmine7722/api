@@ -19,5 +19,6 @@ class Vache extends Model
         'cin_user',
         'poids',
         'date_chaleur',
+        'code',
     ];
 }

@@ -18,6 +18,7 @@ class CreateVachesTable extends Migration
             $table->string('name');
             $table->date('date_naissance');
             $table->unsignedInteger('cin_user');
+            $table->unsignedInteger('code');
             $table->float('poids', 8, 6); 
             $table->date('date_chaleur');
             //$table->foreign('cin_user')->references->('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
